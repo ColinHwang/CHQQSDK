@@ -1,8 +1,7 @@
 {
   "name": "CHQQSDK",
-  "version": "0.1.0",
-  "summary": "A short description of CHQQSDK.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "3.3.7",
+  "summary": "Tencent QQ Open SDK for iOS.",
   "homepage": "https://github.com/ColinHwang/CHQQSDK",
   "license": {
     "type": "MIT",
@@ -13,10 +12,25 @@
   },
   "source": {
     "git": "https://github.com/ColinHwang/CHQQSDK.git",
-    "tag": "0.1.0"
+    "tag": "3.3.7"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "CHQQSDK/Classes/**/*"
+  "frameworks": [
+    "CoreGraphics",
+    "CoreTelephony",
+    "Security",
+    "SystemConfiguration",
+    "WebKit"
+  ],
+  "libraries": [
+    "iconv",
+    "sqlite3",
+    "stdc++",
+    "z"
+  ],
+  "ios": {
+    "vendored_frameworks": "CHQQSDK/lib/TencentOpenAPI.framework"
+  }
 }
