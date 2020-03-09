@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'CHQQSDK_Example' do
+  pod 'CHQQSDK', :path => '../'
+
+  target 'CHQQSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
