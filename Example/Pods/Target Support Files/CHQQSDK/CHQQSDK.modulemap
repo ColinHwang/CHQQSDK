@@ -1,0 +1,6 @@
+framework module CHQQSDK {
+  umbrella header "CHQQSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

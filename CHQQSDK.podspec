@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CHQQSDK'
-  s.version          = '0.1.0'
+  s.version          = '3.3.7'
   s.summary          = 'A short description of CHQQSDK.'
 
 # This description is used to generate tags and improve search results.

@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		06EE60BEF2D589F461E11303 /* Pods_CHQQSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHQQSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E440519CB833D921421A15C /* Pods-CHQQSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHQQSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-CHQQSDK_Example/Pods-CHQQSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3F7E65445352564623D45F43 /* CHQQSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CHQQSDK.podspec; path = ../CHQQSDK.podspec; sourceTree = "<group>"; };
+		3F7E65445352564623D45F43 /* CHQQSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CHQQSDK.podspec; path = ../CHQQSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5143C5AD0C1D60F83C01D32C /* Pods-CHQQSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHQQSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CHQQSDK_Tests/Pods-CHQQSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CHQQSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHQQSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,8 +65,8 @@
 		75A2CFF07879DAF2519A9DE8 /* Pods_CHQQSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHQQSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF5B1E2187AD3062127CD9A0 /* Pods-CHQQSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHQQSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-CHQQSDK_Tests/Pods-CHQQSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D88A5FDB6A947B374F074C31 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		EF070340BAF9777769093E8B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D88A5FDB6A947B374F074C31 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EF070340BAF9777769093E8B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				5143C5AD0C1D60F83C01D32C /* Pods-CHQQSDK_Tests.debug.xcconfig */,
 				AF5B1E2187AD3062127CD9A0 /* Pods-CHQQSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
